@@ -1,0 +1,163 @@
+.pricing {
+    display: block;
+    text-align: center;
+    
+    margin-top: -150px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.pricing h6 {
+    margin-bottom: 4rem;
+}
+
+.pricing h2 {
+    text-align: center;
+}
+
+.pricing h6 {
+    text-align: center;
+}
+
+.pricing .table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricing .basic {
+    width: 355px;
+    height: 100%;
+    border: 1px solid #4169E1;
+    border-radius: 20px;
+}
+
+.pricing .basic h3 {
+    text-align: center;
+    font-weight: 300;
+    padding: 40px 0;
+    background: #ecf0f1;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
+    transition: all ease 0.6s;
+}
+
+.pricing .basic:hover h3 {
+    background-image: linear-gradient(to left, #4169E1, #4169E1);
+    color: #fff;
+}
+
+.pricing .standard h3 {
+    background-image: linear-gradient(to right, #4169E1, #4169E1);
+    color: #fff;
+    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
+}
+
+.pricing .basic .price {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.pricing .basic .price .sign {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.pricing .basic .price .currency {
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    line-height: 60px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.pricing .basic .price .cent {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 400;
+    vertical-align: bottom;
+}
+
+.pricing .basic .price .month {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    vertical-align: bottom;
+}
+
+.pricing .basic ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.pricing .basic ul li {
+    border-top: 1px solid #ccc;
+    padding: 18px 0;
+    border-bottom: 1px solid #ccc;
+    color: #7f8c8d;
+}
+
+.pricing .basic ul li i {
+    color: #535CF1;
+    padding-right: 5px;
+}
+
+.pricing .header-btn {
+    margin: 2rem auto;
+    width: 170px;
+}
+
+.pricing .header-btn a {
+    font-weight: normal;
+    border-radius: 50px;
+    font-size: 18px;
+    outline: medium none;
+    border: 1px solid #2ecc71;
+    color: #4169E1;
+}
+
+.pricing .basic:hover .header-btn a {
+    color: #fff;
+    background-image: linear-gradient(to right, #4169E1, #4169E1);
+    border: 1px solid #27ae60;
+}
+
+.pricing .standard .header-btn a {
+    color: #fff;
+    background-image: linear-gradient(to left, #4169E1, #4169E1);
+    border: 1px solid #27ae60;
+}
+.button{
+    
+   height: 45px;
+   margin: 35px 0
+ }
+ .button input{
+   height: 100%;
+   width: 10%;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 100;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: linear-gradient(135deg, #4169E1, #4169E1);
+     margin-left: 45%;
+margin-right: 45%;
+   
+ }
+ 
+
+
+
+
